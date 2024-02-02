@@ -42,13 +42,17 @@
 	display: grid;
 	grid-column: 2;
 	grid-row: 1;
-	grid-template-columns: 2;
-	grid-template-rows: 1;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
 	align-items: center;
 	justify-items: center;
 
+}
+
 .header_btns {
-	grid-column: 2; 
+	grid-column-start: 2;
+	grid-column-end: 4;
+
 }
 .header_btns > button {
 	border-radius: 3px;
