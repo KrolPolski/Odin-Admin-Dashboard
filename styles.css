@@ -48,7 +48,6 @@
 	justify-items: center;
 
 }
-
 .header_btns {
 	grid-column-start: 2;
 	grid-column-end: 4;
@@ -62,11 +61,11 @@
 	color: var(--color-complement-1);
 }
 .main-content {
-    grid-column: 2;
+    grid-column-start: 2;
     grid-row: 2;
     background-color: var(--color-primary-5);
 	display: grid;
-	grid-template-columns: 290px 290px 290px;
+	grid-template-columns: 380px 380px 290px;
 	grid-template-rows: 290px 290px 290px;
 	gap: 20px;
 	margin-top: 15px;
@@ -74,6 +73,15 @@
 .card {
 	grid-column: auto;
 	border:black;
+	border-radius: 8px;
+	background-color: var(--color-complement-1);
 	margin: 15px;
 	padding: 15px;
+
+}
+.right_sidebar {
+	grid-column: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	background-color: var(--color-complement-1);
 }
