@@ -72,7 +72,7 @@
     background-color: var(--color-primary-5);
 	display: grid;
 	grid-template-columns: 380px 380px 290px;
-	grid-template-rows: 50px 290px 290px 290px;
+	grid-template-rows: 50px 280px 280px 280px;
 	gap: 10px;
 	padding-left: 10px;
 	padding-bottom: 30px;
@@ -86,6 +86,16 @@
 	margin: 10px;
 
 }
+.card h3{
+	margin: 0px;
+}
+.card_btns{
+	text-align: end;
+}
+.card_btns img
+{
+	margin-left: 20px;
+}
 .right_sidebar {
 	grid-column: 3;
 	grid-row-start: 2;
@@ -94,7 +104,7 @@
 	padding: 15px;
 	display: grid;
 	grid-template-columns: 290px;
-	grid-template-rows: 9fr 1fr 6fr;
+	grid-template-rows: 440px 75px 290px;
 	gap: 15px;
 	
 }
@@ -118,7 +128,9 @@
 	background-color: var(--color-complement-1);
 	border-radius: 8px;
 }
-
+hr {
+	margin-bottom: 30px;
+}
 .trending
 {
 	grid-row: 3;
