@@ -46,9 +46,7 @@
 	grid-template-columns: 100px 1fr 4fr;
 	grid-template-rows: 1fr 1fr;
 	align-items: end;
-	padding-bottom: 50px;
-	justify-items: center;
-
+	padding: 0px 30px 30px 30px;
 }
 .header_btns {
 	grid-column: 3;
@@ -134,4 +132,20 @@
 .trending p {
 	padding: 10px;
 	margin: 0px;
+}
+
+input {
+	border-radius: 8px;
+	background-color: var(--color-primary-5);
+	margin-bottom: 10px;
+}
+.alert{
+	margin: auto;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 3fr;
+}
+.alert img
+{
+	margin: 10px;
 }
