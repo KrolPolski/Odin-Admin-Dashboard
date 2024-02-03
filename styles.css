@@ -68,15 +68,17 @@
 	display: grid;
 	grid-template-columns: 380px 380px 290px;
 	grid-template-rows: 50px 290px 290px 290px;
-	gap: 20px;
+	gap: 10px;
+	padding-left: 10px;
+	padding-bottom: 30px;
 }
 .card {
 	grid-column: auto;
-	border:black;
+	border-left: 8px solid var(--color-complement-4);
 	border-radius: 8px;
 	background-color: var(--color-complement-1);
-	margin: 15px;
 	padding: 15px;
+	margin: 10px;
 
 }
 .right_sidebar {
@@ -87,8 +89,8 @@
 	padding: 15px;
 	display: grid;
 	grid-template-columns: 290px;
-	grid-template-rows: 3fr 2fr;
-	gap: 40px;
+	grid-template-rows: 9fr 1fr 6fr;
+	gap: 15px;
 	
 }
 .wide
@@ -114,10 +116,16 @@
 
 .trending
 {
-	grid-row: 2;
+	grid-row: 3;
 	background-color: var(--color-complement-1);
 	border-radius: 8px;
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 4fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
+	gap: 10px;
+	padding: 5px;
+}
+.trending p {
+	padding: 10px;
+	margin: 0px;
 }
