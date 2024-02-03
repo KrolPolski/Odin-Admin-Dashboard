@@ -43,23 +43,29 @@
 	display: grid;
 	grid-column: 2;
 	grid-row: 1;
-	grid-template-columns: 2fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr;
-	align-items: center;
+	grid-template-columns: 100px 1fr 4fr;
+	grid-template-rows: 1fr 1fr;
+	align-items: end;
+	padding-bottom: 50px;
 	justify-items: center;
 
 }
 .header_btns {
-	grid-column-start: 2;
-	grid-column-end: 4;
-
+	grid-column: 3;
+	margin-left: auto;
 }
 .header_btns > button {
-	border-radius: 3px;
+	border-radius: 15px;
 	padding: 10px 30px;
 	margin: 0px 15px;
 	background-color: var(--color-primary-0);
 	color: var(--color-complement-1);
+	font-weight: bolder;
+}
+.top_header {
+	grid-row: 1;
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
 .main-content {
     grid-column-start: 2;
